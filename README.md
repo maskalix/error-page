@@ -2,6 +2,9 @@
 Simple yet elegant custom HTML error page [single PHP file]
 - should work with any webserver, tested for NGINX
 
+# Fast setup
+- instead of hosting it yourself, use 'error.modernalt.eu' as ERROR_PAGE_DOMAIN
+
 # Usage
 - pass the error from webserver to error site => http(s)://ERROR_PAGE_DOMAIN/?error=$ERROR_CODE&url=$origin.domain.tld&protocol=https;
 - properties:
